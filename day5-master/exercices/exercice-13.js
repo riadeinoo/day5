@@ -16,7 +16,7 @@
 // 2. Écris ta solution sous cette ligne.
 function formater(montant){
         montant = number.toString()
-        let newmontant= montant.slice(0, 1) + " " + montant.slice(1, 4)  + " " + montant.slice(4,7) + " MAD"; 
+        let newmontant= montant.slice(0, 1)+ " " + montant.slice(1, 4)  + " " + montant.slice(4,7) + " MAD"; 
         return newmontant    
     }
 
@@ -24,3 +24,4 @@ function formater(montant){
 let montant = ""
 let number = 1234567
 console.log(formater(montant))
+
