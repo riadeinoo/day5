@@ -14,4 +14,11 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let para = "bonjour tt le monde je suis riadeino je vais inshallah apprendre le javascript et faire boucoup dajan et la mala sera gainx"
+let count=0
+for (let x = 0; x< para.length; x++){
+    
+    if (para[x] === "e")
+        count += 1
+}
+console.log(count)
