@@ -15,4 +15,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let dog = "chien"
+let riad = "niche"
+
+let sorteddog = dog.split("").sort().join("")
+let sortedriad = riad.split("").sort().join("")
+
+
+if (sorteddog === sortedriad){
+    console.log("anagramme")
+}

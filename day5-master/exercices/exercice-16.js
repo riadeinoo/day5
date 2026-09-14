@@ -14,4 +14,14 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let tweet = "Beau temps à #Nador aujourd'hui avec la team #YouCode !"
+let dex = 0
+let temp
+let tags = []
+for (let x = 0; x < tweet.length; x++){
+    dex += 1
+    if (tweet[dex] === "#"){
+    tags = tweet.slice(dex)
+    }
+}
+console.log(tags)

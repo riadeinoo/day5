@@ -14,4 +14,7 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
+let mot = "slm cc cv ana smiti riad mbrok l3id   ameen   layhfdeek"
+let mots = mot.trim().split((/\s+/))
+let result = mots.length
+ console.log(result + " mots")
