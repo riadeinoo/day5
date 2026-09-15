@@ -24,3 +24,19 @@
 
 // Découpe d'abord le problème en petites étapes.
 // TODO: écris ta solution ici.
+function filtrerMessage(message){
+      let zord = message.toLowerCase().split(" ")
+
+    for (let x = 0; x < zord.length; x++){
+    if (ban.includes(zord[x])) {
+        zord[x] = "*".repeat(zord[x].length);
+    }
+    }
+    return zord.join(" ")
+}
+
+
+
+let message = "tu est NUL NUL petit nul je vais nul ton nul idiot nul nul Nul"
+let ban = ["noob", "idiot", "nul"]
+console.log(filtrerMessage(message))
