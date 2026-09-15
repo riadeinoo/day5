@@ -14,4 +14,18 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
- 
+function verification(matricule){
+      let search = matricule.match(/-/g)
+      let cut = matricule.split("-")
+  
+    if (search && search.length === 2 && cut.length === 3 && isNaN(cut[1]) ){
+    return true 
+    } else {
+        return false
+    }
+
+    }
+
+
+let matricule = "1234-A-56"
+console.log(verification(matricule))

@@ -16,9 +16,12 @@
 // 2. Écris ta solution sous cette ligne.
 let para = "bonjour tt le monde je suis riadeino je vais inshallah apprendre le javascript et faire boucoup dajan et la mala sera gainx"
 let count=0
+function compte(para){
 for (let x = 0; x< para.length; x++){
     
     if (para[x] === "e")
         count += 1
 }
-console.log(count)
+return count
+}
+console.log(compte(para))
